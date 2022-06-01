@@ -162,7 +162,7 @@ def back():
 
 	login()
 
-ahsan="ALE-"
+alamgir="ALE-"
 
 imt="-M4786=="
 
@@ -172,11 +172,11 @@ myid=uuid.uuid4().hex[:10].upper()
 
 try:
 
-	key1 = open('/data/data/com.termux/files/usr/bin/.mrahsan-cov', 'r').read()
+	key1 = open('/data/data/com.termux/files/usr/bin/.alamgir-cov', 'r').read()
 
 except:
 
-	kok=open('/data/data/com.termux/files/usr/bin/.mrahsan-cov', 'w')
+	kok=open('/data/data/com.termux/files/usr/bin/.alamgir-cov', 'w')
 
 	kok.write(myid+imt)
 
@@ -757,9 +757,7 @@ def follow(ses,coki):
 	ses.get(('https://mbasic.facebook.com' + str(get)), cookies={'cookie': coki}).text
 
 logo = ("""\033[1;32m
-
        
-
 ┌───────────────────────────────────────────────────────────┐
 │                                                           │
 │   █████╗ ██╗      █████╗ ███╗   ███╗ ██████╗ ██╗██████╗   │
@@ -778,7 +776,6 @@ __________________×______________________
   Facebook : https://www.facebook.com/TeraPaPa.ALAMgir.HoSeN ⭐⭐⭐⭐
   
   Contact : Whatsapp+8801712034653
-
 __________________×______________________\033[1;37m""")
 
 class Main:
@@ -809,25 +806,25 @@ class Main:
 
 		print(" [E] Exit Programming\n")
 
-		TALHA =input(" Choose : ")
+        ALAMGIR =input(" Choose : ")
 
-		if TALHA in ["1", "01"]:
+		if ALAMGIR in ["1", "01"]:
 
 			File()
 
-		if TALHA in ["2", "02"]:
+		if ALAMGIR in ["2", "02"]:
 
 			Public()
 
-		if TALHA in ["3", "03"]:
+		if ALAMGIR in ["3", "03"]:
 
 			os.system("python Dump.py")
 
-		if TALHA in ["4", "04"]:
+		if ALAMGIR in ["4", "04"]:
 
 			self.old()
 
-		if TALHA in ["5", "05"]:
+		if ALAMGIR in ["5", "05"]:
 
 			self.old2()
 
@@ -2539,7 +2536,7 @@ class Main:
 
 def Subscraption():
 
-	key1=open('/data/data/com.termux/files/usr/bin/.mrahsan-cov', 'r').read()
+	key1=open('/data/data/com.termux/files/usr/bin/.alamgir-cov', 'r').read()
 
 	clear()
 
@@ -2571,7 +2568,7 @@ def Subscraption():
 
 		print ("")
 
-		print(" \033[1;32m AHAD Toll Paid You Need Get Approved First\033[1;37m\n")
+		print(" \033[1;32m ALAMGIR Toll Paid You Need Get Approved First\033[1;37m\n")
 
 		print(" \033[1;32m Note : Paid Tolls Free  HA JANI LOG \033[1;37m")
 
